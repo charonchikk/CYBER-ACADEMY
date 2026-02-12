@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CyberTSPK Academy</title>
+  <meta http-equiv="refresh" content="0; url=academy-v4-12courses.html" />
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: radial-gradient(circle at top, #101935, #060814);
+      color: #00ff88;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    }
+    .msg {
+      text-align: center;
+      font-size: 14px;
+    }
+    .msg a {
+      color: #00ffff;
+    }
+  </style>
+</head>
+<body>
+  <div class="msg">
+    Загрузка <strong>CyberTSPK Academy</strong>...<br />
+    Если не перенаправило автоматически,
+    <a href="academy-v4-12courses.html">нажми сюда</a>.
+  </div>
+  <script>
+    // На случай, если meta-refresh заблокирован
+    setTimeout(function () {
+      if (location.pathname.indexOf('academy-v4-12courses.html') === -1) {
+        window.location.href = 'academy-v4-12courses.html';
+      }
+    }, 100);
+  </script>
+</body>
+</html>
+
